@@ -3,6 +3,14 @@ description: Generate enforced architecture document and save to docs/reference
 agent: plan
 subtask: true
 ---
+Before executing:
+
+Check project-state.md
+
+If Current Phase < PRD Generated:
+Abort and instruct user to generate PRD first.
+
+---
 
 Convert the current context or referenced PRD into a structured Architecture Document.
 
