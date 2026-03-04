@@ -4,6 +4,10 @@ agent: plan
 subtask: true
 ---
 
+If Current Phase < Architecture Generated:
+Abort.
+
+---
 Reference:
 
 @docs/reference/prd.md
