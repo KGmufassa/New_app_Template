@@ -1,25 +1,23 @@
 ---
-description: Generate a detailed system architecture document from current context or PRD
+description: Generate enforced architecture document and folder structure
 agent: plan
 subtask: true
 ---
 
-Convert the current conversation context OR referenced PRD into a structured System Architecture document.
+Convert the current context or referenced PRD into a structured Architecture Document.
 
 Additional refinement instructions:
 $ARGUMENTS
 
-Follow the official template below strictly:
+Follow this template strictly:
 
 @docs/templates/ARCHITECTURE_TEMPLATE.md
 
----
+Ensure:
+- Folder structure is explicitly defined
+- Layer responsibilities are enforced
+- No vague descriptions
+- Trade-offs are documented
+- Scaling strategy is explicit
 
-Instructions:
-
-1. Do not rename headings.
-2. All architectural decisions must be explicit.
-3. Document trade-offs.
-4. If data is missing, infer conservatively and document under "Known Constraints".
-5. Remove brainstorming noise.
-6. Output clean Markdown only.
+Output Markdown only.
