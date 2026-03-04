@@ -1,5 +1,5 @@
 ---
-description: Generate enforced architecture document and folder structure
+description: Generate enforced architecture document and save to docs/reference
 agent: plan
 subtask: true
 ---
@@ -20,4 +20,17 @@ Ensure:
 - Trade-offs are documented
 - Scaling strategy is explicit
 
-Output Markdown only.
+---
+
+After generating the document:
+
+1. Save the file to:
+
+docs/reference/architecture-v1.md
+
+2. If the docs/reference directory does not exist, create it.
+3. Overwrite the file if it already exists.
+4. Do NOT output the full document in chat.
+5. Output only this confirmation message:
+
+"Architecture document saved to docs/reference/architecture-v1.md"
