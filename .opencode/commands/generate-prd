@@ -25,11 +25,11 @@ After generating the document:
 
 1. Save it to:
 
-docs/reference/prd-v1.md
+docs/reference/prd.md
 
 2. Overwrite if it already exists.
 3. Output confirmation message:
-   "PRD saved to docs/reference/prd-v1.md"
+   "PRD saved to docs/reference/prd.md"
 
 
 4. Do not rename headings.
