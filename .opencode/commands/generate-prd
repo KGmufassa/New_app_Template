@@ -21,9 +21,23 @@ Follow the official template below strictly.
 
 Instructions:
 
-1. Do not rename headings.
-2. Populate every section.
-3. All requirements must be testable.
-4. Architecture decisions must be explicit.
-5. Missing information must go under "Assumptions".
-6. Output clean Markdown only.
+After generating the document:
+
+1. Save it to:
+
+docs/prd/v1.md
+
+2. Overwrite if it already exists.
+3. Output confirmation message:
+   "PRD saved to docs/prd/v1.md"
+
+
+4. Do not rename headings.
+5. Populate every section.
+6. All requirements must be testable.
+7. Architecture decisions must be explicit.
+8. Missing information must go under "Assumptions".
+9. Output clean Markdown only.
+
+**Do not output the full document in chat unless explicitly requested.
+
