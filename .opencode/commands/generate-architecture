@@ -26,11 +26,11 @@ After generating the document:
 
 1. Save the file to:
 
-docs/reference/architecture-v1.md
+docs/reference/architecture.md
 
 2. If the docs/reference directory does not exist, create it.
 3. Overwrite the file if it already exists.
 4. Do NOT output the full document in chat.
 5. Output only this confirmation message:
 
-"Architecture document saved to docs/reference/architecture-v1.md"
+"Architecture document saved to docs/reference/architecture.md"
