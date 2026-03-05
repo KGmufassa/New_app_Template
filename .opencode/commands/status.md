@@ -1,6 +1,6 @@
 ---
 description: Display current project lifecycle status
-agent: plan
+agent: build
 subtask: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 description: Generate custom development framework based on classification
-agent: plan
+agent: build
 subtask: true
 ---
 

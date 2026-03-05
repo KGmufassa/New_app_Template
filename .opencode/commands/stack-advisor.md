@@ -1,6 +1,6 @@
 ---
 description: Retrieve stack-specific best practices using Context7 MCP and generate structured stack guidance
-agent: plan
+agent: build
 subtask: true
 ---
 

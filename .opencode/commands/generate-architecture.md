@@ -1,6 +1,6 @@
 ---
 description: Generate enforced architecture document and save to docs/reference
-agent: plan
+agent: build
 subtask: true
 ---
 Before executing:

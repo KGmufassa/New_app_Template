@@ -1,6 +1,6 @@
 ---
 description: Generate a highly technical implementation-ready PRD from current context
-agent: plan
+agent: build
 subtask: true
 ---
 
@@ -40,4 +40,3 @@ docs/reference/prd.md
 9. Output clean Markdown only.
 
 **Do not output the full document in chat unless explicitly requested.
-

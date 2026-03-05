@@ -1,6 +1,6 @@
 ---
 description: Classify application type and extract system constraints
-agent: plan
+agent: build
 subtask: true
 ---
 

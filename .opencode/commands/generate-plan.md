@@ -1,6 +1,6 @@
 ---
 description: Generate detailed build plan aligned to PRD and framework
-agent: plan
+agent: build
 subtask: true
 ---
 

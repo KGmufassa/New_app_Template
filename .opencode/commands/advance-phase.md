@@ -1,6 +1,6 @@
 ---
 description: Advance project to next lifecycle phase if requirements are met
-agent: plan
+agent: build
 subtask: true
 ---
 
